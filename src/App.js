@@ -1,23 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import TimerComponent from './Componentes/TimerComponent';
+import ConvertirDate from './Componentes/ConvertirDate';
 import './App.css';
-
+import ClassComponent from './Componentes/ConvertirDate';
+import FunctionalComponent from './Componentes/TimerComponent';
 function App() {
+
+  
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+        <TimerComponent/>
+        <ClassComponent/>
+      
       </header>
     </div>
   );
